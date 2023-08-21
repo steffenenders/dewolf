@@ -247,7 +247,7 @@
             },
             {
                 "dest": "instruction-length-handler.max_assignment_complexity",
-                "default": 10,
+                "default": 1,
                 "title": "maximum assignment complexity",
                 "type": "number",
                 "description": "Assignments with a complexity above this threshold will be simplified.",
@@ -287,14 +287,7 @@
             },
             {
                 "dest": "readability-based-refinement.for_loop_variable_names",
-                "default": [
-                    "i",
-                    "j",
-                    "k",
-                    "l",
-                    "m",
-                    "n"
-                ],
+                "default": [],
                 "type": "array",
                 "elementType": "string",
                 "title": "Rename for-loop variables into desired names",
@@ -349,7 +342,7 @@
             },
             {
                 "dest": "readability-based-refinement.rename_while_loop_variables",
-                "default": true,
+                "default": false,
                 "type": "boolean",
                 "title": "Rename while-loop variables",
                 "description": "Rename while-loop counter variables to counter, counter1, ...",
