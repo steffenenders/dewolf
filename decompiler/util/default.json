@@ -287,7 +287,14 @@
             },
             {
                 "dest": "readability-based-refinement.for_loop_variable_names",
-                "default": [],
+                "default": [
+                    "i",
+                    "j",
+                    "k",
+                    "l",
+                    "m",
+                    "n"
+                ],
                 "type": "array",
                 "elementType": "string",
                 "title": "Rename for-loop variables into desired names",
@@ -342,7 +349,7 @@
             },
             {
                 "dest": "readability-based-refinement.rename_while_loop_variables",
-                "default": false,
+                "default": true,
                 "type": "boolean",
                 "title": "Rename while-loop variables",
                 "description": "Rename while-loop counter variables to counter, counter1, ...",
